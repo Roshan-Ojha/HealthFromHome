@@ -1,3 +1,4 @@
+import { Dashboard } from '@/pages/authenticated';
 import AuthLayout from '@/pages/onboarding/authLayout';
 import { Login } from '@/pages/onboarding/login';
 import { SignUp } from '@/pages/onboarding/signup';
@@ -16,5 +17,9 @@ export const router = createBrowserRouter([
       { path: 'login', element: <Login /> },
       { path: 'signup', element: <SignUp /> },
     ],
+  },
+  {
+    path: '/dashboard',
+    element: <Dashboard />,
   },
 ]);
