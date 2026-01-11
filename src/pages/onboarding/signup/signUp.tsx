@@ -200,7 +200,10 @@ export function SignUp() {
                 </Button>
                 <p className="text-center text-muted-foreground">
                   Already have an account?{' '}
-                  <Link to="/auth/login" className="text-primary hover:underline transition-all">
+                  <Link
+                    to="/auth/login"
+                    className="text-primary hover:underline transition-all cursor-pointer"
+                  >
                     Log in
                   </Link>
                 </p>
